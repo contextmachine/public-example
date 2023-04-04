@@ -1,0 +1,13 @@
+jinja2
+python-dotenv
+requests>=2.28.*
+rpyc
+pyyaml>=5.4.*
+pandas
+numpy
+scipy
+randomname
+redis==4.5.2
+dill
+git+https://github.com/sth-v/cxm_boto_client.git
+git+https://github.com/contextmachine/cxmdata.git

@@ -1,0 +1,11 @@
+
+query BasePointQuery($points: [String!], $part: mfb_params_parts_enum) {
+    mfb_params_base_points(where: {name: {_in: $points}, part_name: {_eq: $part}}) {
+        name
+        x
+        y
+        z
+  }
+}
+
+
